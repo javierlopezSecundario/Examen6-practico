@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.lado-izquierdo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #A52A2A;
+    text-align: center;
+}
+
+img[alt="imagen-persona"] {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.texto-izquierdo {
+    color: #fff;
+}
+
+.texto-izquierdo h2 {
+    margin-bottom: 0;
+}
+
+.texto-izquierdo p {
+    margin-top: 5px;
+}
+
+nav .lista-navegador {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.lista-navegador {
+    width: 100%;
+}
+
+.lista-navegador li {
+    padding: 30px 0;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.lista-navegador li:hover {
+    background-color: #fff;
+}
+
+.lista-navegador li:hover a {
+    color: #A52A2A;
+    font-weight: 700;
+}
+
+.lista-navegador a {
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+}
+
+.lista-redes-sociales {
+    padding: 40px 0;
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+
+.red-social i {
+    padding: 10px;
+    background-color: #0007;
+    width: 20px;
+    color: #fff;
+}
+
+.parrafo-copyright {
+    padding-top: 50px;
+    border-top: 1px solid #fff;
+    color: #fff;
+    width: 100%;
+}
+
+.lado-derecho {
+    text-align: center;
+    background-image: url(https://www.wearewater.org/wp-content/uploads/2024/03/maxresdefault-2024-03-01T081618.961.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px;
+    padding-top: 40px;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.lado-derecho::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    background-color: #000a;
+    width: 100%;
+    height: 100%;
+    right: 0;
+}
+
+.lado-derecho header, .lado-derecho main {
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header > hr {
+    width: 50px;
+    border: 1px solid #A52A2A;
+}
+
+header p {
+    padding: 0 50px;
+}
+
+header  {
+    padding-bottom: 50px;
+}
+
+.secion-main {
+    display: flex;
+    gap: 50px;
+}
+
+main > hr {
+    margin: 60px 0;
+    border: 1px solid #fff3;
+}
+
+.secion-main div {
+    text-align: justify;
+}
+
+.secion-main div button {
+    border: none;
+    background-color: #fff;
+    padding: 15px 20px;
+}
+
+.secion-main div button a {
+    color: #A52A2A;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.secion-main img {
+    width: 700px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.secion-inversa {
+    flex-direction: row-reverse;
+}
