@@ -33,6 +33,7 @@ img[alt="imagen-persona"] {
 
 .texto-izquierdo p {
     margin-top: 5px;
+    font-style: italic;
 }
 
 nav .lista-navegador {
@@ -51,7 +52,6 @@ nav {
 }
 
 .lista-navegador li {
-    padding: 30px 0;
     width: 100%;
     border-bottom: 1px solid #fff;
 }
@@ -68,7 +68,11 @@ nav {
 .lista-navegador a {
     text-decoration: none;
     color: #fff;
-    padding: 30px;
+}
+
+.lista-navegador a > div {
+    width: 100%;
+    padding: 30px 0;
 }
 
 .lista-redes-sociales {
@@ -118,7 +122,7 @@ nav {
     position: relative;
     z-index: 100;
     color: #fff;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -127,12 +131,13 @@ header h1 {
 }
 
 header > hr {
-    width: 50px;
+    width: 30px;
     border: 1px solid #A52A2A;
 }
 
 header p {
     padding: 0 50px;
+    line-height: 1.4;
 }
 
 header  {
@@ -149,8 +154,16 @@ main > hr {
     border: 1px solid #fff3;
 }
 
+.secion-main h3 {
+    font-size: 24px;
+} 
+
 .secion-main div {
     text-align: justify;
+}
+
+.secion-main p {
+    line-height: 1.6;
 }
 
 .secion-main div button {
